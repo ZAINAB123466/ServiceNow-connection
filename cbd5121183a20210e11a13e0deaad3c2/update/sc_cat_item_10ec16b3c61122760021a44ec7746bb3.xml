@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type/>
+        <active>false</active>
+        <additional_review>false</additional_review>
+        <availability>on_both</availability>
+        <billable>false</billable>
+        <category display_value="Hardware">d258b953c611227a0146101fb1be7c31</category>
+        <checked_out/>
+        <cost/>
+        <create_universal_request>false</create_universal_request>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p><font size="3" face="arial, helvetica, sans-serif">Dell OptiPlex GX280 - the standard desktop for corporate employee</font></p>
+<ul><li style="margin-top: 0px;"><font size="2" face="arial,helvetica,sans-serif">Intel i7 processor</font></li><li style="margin-top: 0px;"><font size="2" face="arial,helvetica,sans-serif">Microsoft Windows 7</font></li><li style="margin-top: 0px;"><font size="2" face="arial,helvetica,sans-serif">500 GB solid state hard drive</font></li><li style="margin-top: 0px;"><font size="2" face="arial,helvetica,sans-serif">8GB of 533MHz</font></li></ul>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model display_value="Dell Inc. OptiPlex GX280">0c43b182c611227501522de26e44d0aa</model>
+        <name>Office Desktop</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>600</order>
+        <ordered_item_link/>
+        <owner/>
+        <picture>82723bba775a11105e3db2a07b5a9909</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=10ec16b3c61122760021a44ec7746bb3&amp;sysparm_preview=true", "summary");</preview>
+        <price>1200</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles>snc_internal</roles>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description>Dell Desktop</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>glide.maint</sys_created_by>
+        <sys_created_on>2005-06-21 22:56:44</sys_created_on>
+        <sys_id>10ec16b3c61122760021a44ec7746bb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Office Desktop</sys_name>
+        <sys_package display_value="Service Catalog core applications" source="com.glideapp.servicecatalog">94ff215e8db0021087de63ac7f1f0046</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</sys_scope>
+        <sys_update_name>sc_cat_item_10ec16b3c61122760021a44ec7746bb3</sys_update_name>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:17:49</sys_updated_on>
+        <taxonomy_topic display_value="Computers">b075d2c483960250e11a13e0deaad357</taxonomy_topic>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor display_value="Dell Inc.">b7e7d7d8c0a8016900a5d7f291acce5c</vendor>
+        <version>8</version>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="Procurement Process Flow - Hardware">5961b91037023000158bbfc8bcbe5ddf</workflow>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=10ec16b3c61122760021a44ec7746bb3"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>10ec16b3c61122760021a44ec7746bb3</documentkey>
+        <fieldname>description</fieldname>
+        <language>zh</language>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2013-07-18 20:13:17</sys_created_on>
+        <sys_id>26a2a897d7220100f2d224837e610310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2013-07-18 20:13:17</sys_updated_on>
+        <tablename>sc_cat_item</tablename>
+        <value>&lt;p&gt;&lt;strong&gt;&lt;br
+			/&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br
+			/&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br
+			/&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;br
+			/&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;处理器：&lt;/strong&gt;Intel
+			Pentium 4 520 (2.80GHz)&lt;br
+			/&gt;&lt;strong&gt;操作系统：&lt;/strong&gt;Microsoft Windows XP
+			Professional&lt;br /&gt;&lt;strong&gt;芯片组：&lt;/strong&gt;Intel 915G
+			Express 芯片组&lt;br
+			/&gt;&lt;strong&gt;内存：&lt;/strong&gt;1GB，533MHz&lt;br
+			/&gt;&lt;strong&gt;视频：&lt;/strong&gt;Intel 图形媒体加速器 900&lt;br
+			/&gt;&lt;strong&gt;机箱：&lt;/strong&gt;PCIe x16 图形插槽、三个 PCI 插槽和一个 PCIe
+			x1
+			插槽&lt;/p&gt;&lt;p&gt;&lt;strong&gt;费用回收基础：&lt;/strong&gt;退款&lt;/p&gt; </value>
+    </sys_translated_text>
+    <fx_price action="delete_multiple" query="id=10ec16b3c61122760021a44ec7746bb3"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>1200</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>10ec16b3c61122760021a44ec7746bb3</id>
+        <parent/>
+        <reference_amount>1200</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>guest</sys_created_by>
+        <sys_created_on>2011-07-04 15:29:05</sys_created_on>
+        <sys_id>aebc2a1af0030000f79d5cc0fb178ca0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>asmae.aitha</sys_updated_by>
+        <sys_updated_on>2024-05-16 11:35:36</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>10ec16b3c61122760021a44ec7746bb3</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2012-11-28 08:38:45</sys_created_on>
+        <sys_id>6956cb1337193000158bbfc8bcbe5d0e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>asmae.aitha</sys_updated_by>
+        <sys_updated_on>2024-05-16 11:35:36</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</claim_owner_scope>
+        <claim_timestamp>18fd53c99b90000002</claim_timestamp>
+        <metadata_update_name>sc_cat_item_10ec16b3c61122760021a44ec7746bb3</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>HR</previous_claim_name>
+        <previous_claim_scope>cbd5121183a20210e11a13e0deaad3c2</previous_claim_scope>
+        <sys_created_by>zainab.oulhcen</sys_created_by>
+        <sys_created_on>2024-06-01 19:17:49</sys_created_on>
+        <sys_id>8f37969183a20210e11a13e0deaad3ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:17:49</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</claim_owner_scope>
+        <claim_timestamp>18fd53c99b90000001</claim_timestamp>
+        <metadata_update_name>sc_cat_item_10ec16b3c61122760021a44ec7746bb3</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.glideapp.servicecatalog</previous_claim_name>
+        <previous_claim_scope>com.glideapp.servicecatalog</previous_claim_scope>
+        <sys_created_by>zainab.oulhcen</sys_created_by>
+        <sys_created_on>2024-06-01 19:17:49</sys_created_on>
+        <sys_id>4337969183a20210e11a13e0deaad3ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:17:49</sys_updated_on>
+    </sys_claim>
+</record_update>

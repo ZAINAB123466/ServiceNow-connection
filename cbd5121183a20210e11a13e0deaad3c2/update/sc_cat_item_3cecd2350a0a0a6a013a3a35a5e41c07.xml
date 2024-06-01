@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type/>
+        <active>true</active>
+        <additional_review>false</additional_review>
+        <availability>on_both</availability>
+        <billable>false</billable>
+        <category display_value="Hardware">d258b953c611227a0146101fb1be7c31</category>
+        <checked_out/>
+        <cost/>
+        <create_universal_request>false</create_universal_request>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p style="margin-top: 0px;"><font size="3" face="arial,helvetica,sans-serif">Dell XPS 13</font></p>
+<p style="margin-top: 0px;"><font size="2" face="arial,helvetica,sans-serif">The corporate standard laptop for developers. High performance processing and storage.</font></p>
+<p style="margin-top: 0px;"><font size="2" face="arial,helvetica,sans-serif">Specifications:</font></p>
+<ul><li><font size="2" face="arial,helvetica,sans-serif">3.1 GHz Intel Core i7 processor</font></li><li><font size="2" face="arial,helvetica,sans-serif">250 GB or 500GB Solid State Drive</font></li><li><font size="2" face="arial,helvetica,sans-serif">8 GB RAM</font></li><li><font size="2" face="arial,helvetica,sans-serif">Microsoft Windows 8 or Ubuntu</font></li><li><font size="2" face="arial,helvetica,sans-serif">Tomcat, Eclipse, Firefox, Chrome</font></li></ul>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_mobile_picture</mobile_picture_type>
+        <model/>
+        <name>Development Laptop (PC)</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>300</order>
+        <ordered_item_link/>
+        <owner/>
+        <picture>3f711372771a11105e3db2a07b5a996d</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=3cecd2350a0a0a6a013a3a35a5e41c07&amp;sysparm_preview=true", "summary");</preview>
+        <price>1100</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles>snc_internal</roles>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description>Dell XPS 13</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>glide.maint</sys_created_by>
+        <sys_created_on>2007-07-05 00:34:17</sys_created_on>
+        <sys_id>3cecd2350a0a0a6a013a3a35a5e41c07</sys_id>
+        <sys_mod_count>43</sys_mod_count>
+        <sys_name>Development Laptop (PC)</sys_name>
+        <sys_package display_value="Service Catalog core applications" source="com.glideapp.servicecatalog">94ff215e8db0021087de63ac7f1f0046</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</sys_scope>
+        <sys_update_name>sc_cat_item_3cecd2350a0a0a6a013a3a35a5e41c07</sys_update_name>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:18:10</sys_updated_on>
+        <taxonomy_topic display_value="Computers">b075d2c483960250e11a13e0deaad357</taxonomy_topic>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>12</version>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="Procurement Process Flow - Hardware">5961b91037023000158bbfc8bcbe5ddf</workflow>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=3cecd2350a0a0a6a013a3a35a5e41c07"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>3cecd2350a0a0a6a013a3a35a5e41c07</documentkey>
+        <fieldname>description</fieldname>
+        <language>zh</language>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2013-07-18 20:13:17</sys_created_on>
+        <sys_id>62a2a897d7220100f2d224837e610311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2013-07-18 20:13:17</sys_updated_on>
+        <tablename>sc_cat_item</tablename>
+        <value>公司给研发和工程员工的标准型笔记本电脑具有如下配置。&lt;br /&gt;&lt;ul&gt;&lt;li&gt;2.0
+			GHz Intel 双核处理器&lt;/li&gt;&lt;li&gt;1 GB 内存&lt;/li&gt;&lt;li&gt;15.4
+			&amp;quot; 1680 X 1050
+			屏幕&lt;/li&gt;&lt;/ul&gt;开发人员可选配更大容量的硬盘，并可指定所安装的操作系统。&lt;br /&gt;
+		</value>
+    </sys_translated_text>
+    <fx_price action="delete_multiple" query="id=3cecd2350a0a0a6a013a3a35a5e41c07"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>1100</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>3cecd2350a0a0a6a013a3a35a5e41c07</id>
+        <parent/>
+        <reference_amount>1100</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>guest</sys_created_by>
+        <sys_created_on>2011-11-19 15:29:05</sys_created_on>
+        <sys_id>62bc2a1af0030000f79d5cc0fb178cd1</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:18:09</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>3cecd2350a0a0a6a013a3a35a5e41c07</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>james.grinter</sys_created_by>
+        <sys_created_on>2013-04-29 17:05:04</sys_created_on>
+        <sys_id>f67089c09f3130005192ed93ee4bccb3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:18:09</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</claim_owner_scope>
+        <claim_timestamp>18fd53ceaba0000001</claim_timestamp>
+        <metadata_update_name>sc_cat_item_3cecd2350a0a0a6a013a3a35a5e41c07</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>HR</previous_claim_name>
+        <previous_claim_scope>cbd5121183a20210e11a13e0deaad3c2</previous_claim_scope>
+        <sys_created_by>zainab.oulhcen</sys_created_by>
+        <sys_created_on>2024-06-01 19:18:10</sys_created_on>
+        <sys_id>cc579e9183a20210e11a13e0deaad35d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:18:10</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</claim_owner_scope>
+        <claim_timestamp>18fd53ceab90000001</claim_timestamp>
+        <metadata_update_name>sc_cat_item_3cecd2350a0a0a6a013a3a35a5e41c07</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.glideapp.servicecatalog</previous_claim_name>
+        <previous_claim_scope>com.glideapp.servicecatalog</previous_claim_scope>
+        <sys_created_by>zainab.oulhcen</sys_created_by>
+        <sys_created_on>2024-06-01 19:18:10</sys_created_on>
+        <sys_id>80579e9183a20210e11a13e0deaad35e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:18:10</sys_updated_on>
+    </sys_claim>
+</record_update>

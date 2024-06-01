@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_hr_core_template">
+    <sn_hr_core_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <assign_to>opened_for</assign_to>
+        <assignment_option/>
+        <assignment_type>employee</assignment_type>
+        <date_offset_quantity>0</date_offset_quantity>
+        <date_offset_type>on</date_offset_type>
+        <date_offset_units/>
+        <description_for_employee/>
+        <due_date_source/>
+        <global>true</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>TEMPLATE4</name>
+        <next/>
+        <next_child/>
+        <owning_group/>
+        <parent_case_table>sn_hr_core_case</parent_case_table>
+        <roles/>
+        <short_description/>
+        <short_description_for_employee/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <show_translated_fields>false</show_translated_fields>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sn_hr_core_template</sys_class_name>
+        <sys_created_by>aliboya.elhajouji</sys_created_by>
+        <sys_created_on>2024-05-22 14:12:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fa00b14283da4e50e11a13e0deaad3b2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>TEMPLATE4</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</sys_scope>
+        <sys_update_name>sn_hr_core_template_fa00b14283da4e50e11a13e0deaad3b2</sys_update_name>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:18:30</sys_updated_on>
+        <table>sn_hr_core_task</table>
+        <template>hr_task_type=e_sign^sn_esign_esignature_configuration=af7e3d0eb7743300a251e556ee11a939^state=1^EQ</template>
+        <template_reference/>
+        <template_reference_field/>
+        <use_assignment_date>false</use_assignment_date>
+        <user display_value="aliboya elhajouji">b1ceafc483bd8210e11a13e0deaad3d9</user>
+        <view/>
+    </sn_hr_core_template>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</claim_owner_scope>
+        <claim_timestamp>18fd53d3a290000001</claim_timestamp>
+        <metadata_update_name>sn_hr_core_template_fa00b14283da4e50e11a13e0deaad3b2</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>HR</previous_claim_name>
+        <previous_claim_scope>cbd5121183a20210e11a13e0deaad3c2</previous_claim_scope>
+        <sys_created_by>zainab.oulhcen</sys_created_by>
+        <sys_created_on>2024-06-01 19:18:30</sys_created_on>
+        <sys_id>81679ad183a20210e11a13e0deaad339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:18:30</sys_updated_on>
+    </sys_claim>
+</record_update>

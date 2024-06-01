@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>delete email</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    // Appel GlideAjax au Script Include
+    var ga = new GlideAjax('EmailDeletion');
+    ga.addParam('sysparm_name', 'deleteAllEmails');
+    ga.getXMLAnswer(function(response) {
+        var answer = response.responseXML.documentElement.getAttribute('answer');
+        alert(answer);  // Affiche le nombre d'emails supprimés
+    });
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>aliboya.elhajouji</sys_created_by>
+        <sys_created_on>2024-05-16 10:13:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0801c64483d20250e11a13e0deaad36b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>delete email</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</sys_scope>
+        <sys_update_name>sys_script_client_0801c64483d20250e11a13e0deaad36b</sys_update_name>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:18:06</sys_updated_on>
+        <table>sys_email</table>
+        <type/>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</claim_owner_scope>
+        <claim_timestamp>18fd53cdc8a0000001</claim_timestamp>
+        <metadata_update_name>sys_script_client_0801c64483d20250e11a13e0deaad36b</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>HR</previous_claim_name>
+        <previous_claim_scope>cbd5121183a20210e11a13e0deaad3c2</previous_claim_scope>
+        <sys_created_by>zainab.oulhcen</sys_created_by>
+        <sys_created_on>2024-06-01 19:18:06</sys_created_on>
+        <sys_id>57475e9183a20210e11a13e0deaad352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:18:06</sys_updated_on>
+    </sys_claim>
+</record_update>

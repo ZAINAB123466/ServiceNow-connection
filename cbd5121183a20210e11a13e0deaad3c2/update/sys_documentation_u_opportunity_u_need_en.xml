@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_need" label="Need" language="en" table="u_opportunity">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_need</element>
+            <help/>
+            <hint/>
+            <label>Need</label>
+            <language>en</language>
+            <name>u_opportunity</name>
+            <plural>Need</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>asmae.aitha</sys_created_by>
+            <sys_created_on>2024-05-23 09:09:16</sys_created_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Need</sys_name>
+            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</sys_scope>
+            <sys_update_name>sys_documentation_u_opportunity_u_need_en</sys_update_name>
+            <sys_updated_by>zainab.oulhcen</sys_updated_by>
+            <sys_updated_on>2024-06-01 19:18:43</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</claim_owner_scope>
+        <claim_timestamp>18fd53d6d970000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_u_opportunity_u_need_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>HR</previous_claim_name>
+        <previous_claim_scope>cbd5121183a20210e11a13e0deaad3c2</previous_claim_scope>
+        <sys_created_by>zainab.oulhcen</sys_created_by>
+        <sys_created_on>2024-06-01 19:18:43</sys_created_on>
+        <sys_id>9c77ded183a20210e11a13e0deaad352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:18:43</sys_updated_on>
+    </sys_claim>
+</record_update>

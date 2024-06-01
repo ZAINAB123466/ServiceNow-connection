@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>true</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>assign request to HR</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    // Nom du groupe à rechercher
+    var groupName = 'HR';
+	var managerName = 'Zainab Oulhcen';
+
+    // Requête GlideRecord pour rechercher le groupe basé sur son nom
+    var groupGr = new GlideRecord('sys_user_group');
+    groupGr.addQuery('name', groupName);
+    groupGr.query();
+
+    // Vérifier si un groupe a été trouvé
+    if (groupGr.next()) {
+        // Si un groupe est trouvé, récupérer son nom et définir la valeur du champ 'assignment_group'
+        var groupName = groupGr.name;
+        g_form.setValue('assignment_group', groupName);
+    } else {
+        // Si aucun groupe n'est trouvé, afficher un message d'erreur ou effectuer une autre action appropriée
+        alert("Le groupe de travail '" + groupName + "' n'a pas été trouvé. Veuillez contacter l'administrateur système.");
+    }
+
+    // Indiquer à ServiceNow de continuer avec la soumission normale du formulaire
+    return true;
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>zainab.oulhcen</sys_created_by>
+        <sys_created_on>2024-05-14 13:10:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>293694238346ca10e11a13e0deaad39a</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>assign request to HR</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</sys_scope>
+        <sys_update_name>sys_script_client_293694238346ca10e11a13e0deaad39a</sys_update_name>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:18:34</sys_updated_on>
+        <table>sc_req_item</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</claim_owner_scope>
+        <claim_timestamp>18fd53d483c0000001</claim_timestamp>
+        <metadata_update_name>sys_script_client_293694238346ca10e11a13e0deaad39a</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>HR</previous_claim_name>
+        <previous_claim_scope>cbd5121183a20210e11a13e0deaad3c2</previous_claim_scope>
+        <sys_created_by>zainab.oulhcen</sys_created_by>
+        <sys_created_on>2024-06-01 19:18:34</sys_created_on>
+        <sys_id>ce671ed183a20210e11a13e0deaad310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:18:34</sys_updated_on>
+    </sys_claim>
+</record_update>

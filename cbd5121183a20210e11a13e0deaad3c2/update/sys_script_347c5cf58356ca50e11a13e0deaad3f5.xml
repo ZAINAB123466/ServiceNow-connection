@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sc_req_item</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="sc_req_item">cat_item=6988afd383ce8a10e11a13e0deaad39b^EQ<item display_table="sc_cat_item" display_value="Request a document" endquery="false" field="cat_item" goto="false" newquery="false" operator="=" or="false" value="6988afd383ce8a10e11a13e0deaad39b"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Validate delivery date</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+    gs.debug('Test');
+
+    // Vérifie si le champ de la date de livraison a changé
+    if (current.delivery_date.changes()) {
+        var deliveryDate = new GlideDateTime(current.delivery_date);
+        var currentDate = new GlideDateTime();
+		
+        // Compare la date de livraison avec la date actuelle
+        if (deliveryDate.compareTo(currentDate) <= 0) {
+            gs.addErrorMessage('Delivery date cannot be today or in the past.');
+            current.setAbortAction(true); // Annule l'opération si la date est invalide
+        } else {
+            // Utilisez g_form.addInfoMessage pour afficher le message d'information de manière asynchrone
+            g_form.addInfoMessage(gs.getMessage('Delivery date is valid.'));
+            
+            // Utilisez gs.debug pour afficher le message de débogage de manière asynchrone
+            gs.debug('Delivery date is valid. Console message: This message is from the business rule.');
+        }
+    }
+})(current, previous);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>zainab.oulhcen</sys_created_by>
+        <sys_created_on>2024-05-21 13:30:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>347c5cf58356ca50e11a13e0deaad3f5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Validate delivery date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</sys_scope>
+        <sys_update_name>sys_script_347c5cf58356ca50e11a13e0deaad3f5</sys_update_name>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:18:22</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=347c5cf58356ca50e11a13e0deaad3f5"/>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</claim_owner_scope>
+        <claim_timestamp>18fd53d19390000001</claim_timestamp>
+        <metadata_update_name>sys_script_347c5cf58356ca50e11a13e0deaad3f5</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>HR</previous_claim_name>
+        <previous_claim_scope>cbd5121183a20210e11a13e0deaad3c2</previous_claim_scope>
+        <sys_created_by>zainab.oulhcen</sys_created_by>
+        <sys_created_on>2024-06-01 19:18:22</sys_created_on>
+        <sys_id>cf5796d183a20210e11a13e0deaad3f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:18:22</sys_updated_on>
+    </sys_claim>
+</record_update>

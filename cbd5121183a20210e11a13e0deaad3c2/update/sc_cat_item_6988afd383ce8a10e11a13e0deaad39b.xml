@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <additional_review>false</additional_review>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Request a Document">db6427db838e8a10e11a13e0deaad3d6</category>
+        <checked_out>false</checked_out>
+        <cost>0</cost>
+        <create_universal_request>false</create_universal_request>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p><span style="font-size: 14pt; font-family: &#39;times new roman&#39;, times;">Submit your document requests by providing detailed information such as the document name and description</span></p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow display_value="Test Flow 4">3a542ba5831e8a50e11a13e0deaad3a6</flow_designer_flow>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Request a document</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>true</no_cart_v2>
+        <no_delivery_time_v2>true</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>true</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="zainab oulhcen">b771fbc883bd8210e11a13e0deaad307</owner>
+        <picture>4e4dd03c831e0650e11a13e0deaad3e7</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=6988afd383ce8a10e11a13e0deaad39b&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method>request</request_method>
+        <roles/>
+        <sc_catalogs>06ebdf5b834e8a10e11a13e0deaad30e</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description>Request a document</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state>published</state>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>zainab.oulhcen</sys_created_by>
+        <sys_created_on>2024-05-14 09:52:46</sys_created_on>
+        <sys_id>6988afd383ce8a10e11a13e0deaad39b</sys_id>
+        <sys_mod_count>53</sys_mod_count>
+        <sys_name>Request a document</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</sys_scope>
+        <sys_update_name>sc_cat_item_6988afd383ce8a10e11a13e0deaad39b</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:18:47</sys_updated_on>
+        <taxonomy_topic display_value="Request document">ee29ea44831a0250e11a13e0deaad35c</taxonomy_topic>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>59</version>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=6988afd383ce8a10e11a13e0deaad39b"/>
+    <fx_price action="delete_multiple" query="id=6988afd383ce8a10e11a13e0deaad39b"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="EUR">EUR</currency>
+        <field>price</field>
+        <id>6988afd383ce8a10e11a13e0deaad39b</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>zainab.oulhcen</sys_created_by>
+        <sys_created_on>2024-05-14 09:52:46</sys_created_on>
+        <sys_id>ae49e75783ce8a10e11a13e0deaad3ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-05-14 09:52:46</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>6988afd383ce8a10e11a13e0deaad39b</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>zainab.oulhcen</sys_created_by>
+        <sys_created_on>2024-05-14 09:52:46</sys_created_on>
+        <sys_id>2a49e75783ce8a10e11a13e0deaad3f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-05-14 09:52:46</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#e0ecf4</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <encryption_context/>
+        <file_name>picture</file_name>
+        <hash>017d85a76c0eb33ddda116157037f174ff66f21d78c97fc2e39be2cad515ed00</hash>
+        <image_height>200</image_height>
+        <image_width>200</image_width>
+        <size_bytes>4141</size_bytes>
+        <size_compressed>4041</size_compressed>
+        <state>available</state>
+        <sys_created_by>zainab.oulhcen</sys_created_by>
+        <sys_created_on>2024-05-18 10:52:20</sys_created_on>
+        <sys_id>4e4dd03c831e0650e11a13e0deaad3e7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-05-18 11:18:22</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>6988afd383ce8a10e11a13e0deaad39b</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="4e4dd03c831e0650e11a13e0deaad3e7">4e4dd03c831e0650e11a13e0deaad3e7</sys_attachment>
+        <sys_created_by>zainab.oulhcen</sys_created_by>
+        <sys_created_on>2024-05-18 10:52:20</sys_created_on>
+        <sys_id>4a4dd03c831e0650e11a13e0deaad3ea</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>5376</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="4e4dd03c831e0650e11a13e0deaad3e7">4e4dd03c831e0650e11a13e0deaad3e7</sys_attachment>
+        <sys_created_by>zainab.oulhcen</sys_created_by>
+        <sys_created_on>2024-05-18 10:52:20</sys_created_on>
+        <sys_id>c24dd03c831e0650e11a13e0deaad3eb</sys_id>
+    </sys_attachment_doc>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</claim_owner_scope>
+        <claim_timestamp>18fd53cc0a00000001</claim_timestamp>
+        <metadata_update_name>sc_cat_item_6988afd383ce8a10e11a13e0deaad39b</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>HR</previous_claim_name>
+        <previous_claim_scope>cbd5121183a20210e11a13e0deaad3c2</previous_claim_scope>
+        <sys_created_by>zainab.oulhcen</sys_created_by>
+        <sys_created_on>2024-06-01 19:17:59</sys_created_on>
+        <sys_id>25479a9183a20210e11a13e0deaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:17:59</sys_updated_on>
+    </sys_claim>
+</record_update>

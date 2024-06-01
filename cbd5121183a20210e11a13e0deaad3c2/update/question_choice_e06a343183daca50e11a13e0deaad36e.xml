@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="Need">4068303d839aca50e11a13e0deaad3c3</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>asmae.aitha</sys_created_by>
+        <sys_created_on>2024-05-21 15:33:52</sys_created_on>
+        <sys_id>e06a343183daca50e11a13e0deaad36e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Nurse</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</sys_scope>
+        <sys_update_name>question_choice_e06a343183daca50e11a13e0deaad36e</sys_update_name>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:18:30</sys_updated_on>
+        <text>Nurse</text>
+        <value>nurse</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=e06a343183daca50e11a13e0deaad36e"/>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</claim_owner_scope>
+        <claim_timestamp>18fd53d38760000001</claim_timestamp>
+        <metadata_update_name>question_choice_e06a343183daca50e11a13e0deaad36e</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>HR</previous_claim_name>
+        <previous_claim_scope>cbd5121183a20210e11a13e0deaad3c2</previous_claim_scope>
+        <sys_created_by>zainab.oulhcen</sys_created_by>
+        <sys_created_on>2024-06-01 19:18:30</sys_created_on>
+        <sys_id>41679ad183a20210e11a13e0deaad321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:18:30</sys_updated_on>
+    </sys_claim>
+</record_update>

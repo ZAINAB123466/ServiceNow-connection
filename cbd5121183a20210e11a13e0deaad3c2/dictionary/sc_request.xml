@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="hasWorkflow=true" audit="true" create_roles="catalog_admin" db_object_id="57cf6dda8db0021087de63ac7f1f006e" extends="task" label="Request" max_length="40" name="sc_request" read_roles="catalog,itil" text_index="true" type="collection">
+        <element label="Price" max_length="20" name="price" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request state" max_length="40" name="request_state" read_roles="public" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Pending Approval" sequence="1" value="requested"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="in_process"/>
+                <element inactive_on_update="false" label="Closed Complete" sequence="3" value="closed_complete"/>
+                <element inactive_on_update="false" label="Closed Incomplete" sequence="4" value="closed_incomplete"/>
+                <element inactive_on_update="false" label="Closed Cancelled" sequence="5" value="closed_cancelled"/>
+                <element inactive_on_update="false" label="Closed Rejected" sequence="6" value="closed_rejected"/>
+                <element inactive_on_update="false" label="Closed Skipped" sequence="7" value="closed_skipped"/>
+            </choice>
+        </element>
+    </element>
+</database>

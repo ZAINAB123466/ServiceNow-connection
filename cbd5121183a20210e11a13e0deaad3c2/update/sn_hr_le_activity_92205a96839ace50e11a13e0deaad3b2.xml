@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_hr_le_activity">
+    <sn_hr_le_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_set display_value="Collect Opportunities">d0200dce83d24e50e11a13e0deaad30e</activity_set>
+        <activity_to_rescind/>
+        <activity_type>fulfiller</activity_type>
+        <approval_accept_option>anyone</approval_accept_option>
+        <approval_reject_option>resubmit</approval_reject_option>
+        <approver_groups/>
+        <approver_users/>
+        <approvers/>
+        <audience/>
+        <badge display_value="HR">6439a617c3b00300b599b4ad81d3ae57</badge>
+        <catalog_item/>
+        <cmdb_model/>
+        <content_availability_quantity/>
+        <content_availability_units/>
+        <description/>
+        <display_order>75</display_order>
+        <email_template/>
+        <flow/>
+        <from/>
+        <fulfiller_activity display_value="HR Task">b09d36cfc3132200b599b4ad81d3aef5</fulfiller_activity>
+        <hr_criteria/>
+        <hr_service/>
+        <hr_template display_value="Generate  a task HR">87921a1e839ace50e11a13e0deaad316</hr_template>
+        <member_of/>
+        <missing_all_approvers>substitute</missing_all_approvers>
+        <missing_some_approvers>skip</missing_some_approvers>
+        <order_guide/>
+        <order_number/>
+        <owning_group display_value="HR" name="HR">ff0370019f22120047a2d126c42e702b</owning_group>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users/>
+        <sys_class_name>sn_hr_le_activity</sys_class_name>
+        <sys_created_by>asmae.aitha</sys_created_by>
+        <sys_created_on>2024-05-23 11:15:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>92205a96839ace50e11a13e0deaad3b2</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Generate Hr Task</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</sys_scope>
+        <sys_update_name>sn_hr_le_activity_92205a96839ace50e11a13e0deaad3b2</sys_update_name>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:17:58</sys_updated_on>
+        <system_template/>
+        <title>Generate Hr Task</title>
+        <use_badge_on_hr_service>false</use_badge_on_hr_service>
+        <wait_for_generated_tasks_to_complete>false</wait_for_generated_tasks_to_complete>
+    </sn_hr_le_activity>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</claim_owner_scope>
+        <claim_timestamp>18fd53cbaef0000001</claim_timestamp>
+        <metadata_update_name>sn_hr_le_activity_92205a96839ace50e11a13e0deaad3b2</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>HR</previous_claim_name>
+        <previous_claim_scope>cbd5121183a20210e11a13e0deaad3c2</previous_claim_scope>
+        <sys_created_by>zainab.oulhcen</sys_created_by>
+        <sys_created_on>2024-06-01 19:17:58</sys_created_on>
+        <sys_id>85479a9183a20210e11a13e0deaad304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:17:58</sys_updated_on>
+    </sys_claim>
+</record_update>

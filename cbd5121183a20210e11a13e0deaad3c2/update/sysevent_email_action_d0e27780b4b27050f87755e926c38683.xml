@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Service Catalog" name="Service Catalog">be9d02137f232200ee2e108c3ffa9155</category>
+        <collection>sc_request</collection>
+        <condition table="sc_request">approvalCHANGESTOapproved^universal_requestISEMPTY^EQ<item display_value="Approved" endquery="false" field="approval" goto="false" newquery="false" operator="CHANGESTO" or="false" value="approved"/>
+            <item endquery="false" field="universal_request" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>multipart/mixed</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html/>
+        <digest_separator_text/>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>sc_request.approved</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<div style="font-family: lato,arial,sans; line-height: 24px;">
+<div style="text-align: center; padding-bottom: 24px; line-height: 36px; border-bottom: 1px solid #DADDE2;"><span style="font-size: 18pt;">Your request was approved</span></div>
+<div style="font-size: 12pt; padding-top: 24px; padding-bottom: 16px;">${mail_script:request_greetings}</div>
+<div style="font-size: 12pt; padding-bottom: 16px;"><span style="font-weight: 600;">${number}</span> was approved, and we'll proceed with completing your request.</div>
+<div style="font-size: 12pt; padding-bottom: 16px;">You can view your request to track updates and make changes.</div>
+<div style="font-size: 12pt; padding-bottom: 16px;">${mail_script:About_The_Request_Req_Survey_Req_Completed}</div>
+<div style="font-size: 12pt; padding-bottom: 8px;">Thank you,<br />Fulfillment Team</div>
+</div>]]></message_html>
+        <message_list>1140c70253020200601fa3fc9ec58753</message_list>
+        <message_text/>
+        <name>Request approved</name>
+        <omit_watermark>false</omit_watermark>
+        <order/>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>opened_by,requested_for</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Request  ${number} was approved</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>glide.maint</sys_created_by>
+        <sys_created_on>2006-02-03 01:51:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>d0e27780b4b27050f87755e926c38683</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Request approved</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Service Catalog Platform" source="com.glideapp.servicecatalog.platform">50ff215e8db0021087de63ac7f1f0047</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</sys_scope>
+        <sys_update_name>sysevent_email_action_d0e27780b4b27050f87755e926c38683</sys_update_name>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:18:01</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Employee notification template">1462e7ca918a3010f877b1d70a4d6a3d</template>
+        <type>email</type>
+        <weight/>
+    </sysevent_email_action>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</claim_owner_scope>
+        <claim_timestamp>18fd53cc7f90000001</claim_timestamp>
+        <metadata_update_name>sysevent_email_action_d0e27780b4b27050f87755e926c38683</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>HR</previous_claim_name>
+        <previous_claim_scope>cbd5121183a20210e11a13e0deaad3c2</previous_claim_scope>
+        <sys_created_by>zainab.oulhcen</sys_created_by>
+        <sys_created_on>2024-06-01 19:18:01</sys_created_on>
+        <sys_id>0647da9183a20210e11a13e0deaad3a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:18:01</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</claim_owner_scope>
+        <claim_timestamp>18fd53cc7f80000001</claim_timestamp>
+        <metadata_update_name>sysevent_email_action_d0e27780b4b27050f87755e926c38683</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.glideapp.servicecatalog.platform</previous_claim_name>
+        <previous_claim_scope>com.glideapp.servicecatalog.plat</previous_claim_scope>
+        <sys_created_by>zainab.oulhcen</sys_created_by>
+        <sys_created_on>2024-06-01 19:18:01</sys_created_on>
+        <sys_id>c647da9183a20210e11a13e0deaad3a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:18:01</sys_updated_on>
+    </sys_claim>
+</record_update>

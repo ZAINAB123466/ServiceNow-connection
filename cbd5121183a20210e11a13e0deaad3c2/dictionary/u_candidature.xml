@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="321636d683dece50e11a13e0deaad3cd" label="Candidat" max_length="40" name="u_candidature" type="collection">
+        <element label="CIN" max_length="100" name="u_cin" type="string"/>
+        <element label="Resume" max_length="100" name="u_resume" type="file_attachment"/>
+    </element>
+</database>

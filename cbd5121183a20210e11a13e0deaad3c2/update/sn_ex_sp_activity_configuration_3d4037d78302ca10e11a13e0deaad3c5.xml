@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_ex_sp_activity_configuration">
+    <sn_ex_sp_activity_configuration action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <activity_name>Leaves</activity_name>
+        <advanced>false</advanced>
+        <external_link/>
+        <icon>smile-o</icon>
+        <internal_link display_value="sc_category">07261a2147132100ba13a5554ee49092</internal_link>
+        <items_count_script/>
+        <list_view_script/>
+        <order>100</order>
+        <primary>false</primary>
+        <sort_by>sys_created_on</sort_by>
+        <sort_order>asc</sort_order>
+        <sys_class_name>sn_ex_sp_activity_configuration</sys_class_name>
+        <sys_created_by>asmae.aitha</sys_created_by>
+        <sys_created_on>2024-05-14 10:28:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>3d4037d78302ca10e11a13e0deaad3c5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Leaves</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</sys_scope>
+        <sys_update_name>sn_ex_sp_activity_configuration_3d4037d78302ca10e11a13e0deaad3c5</sys_update_name>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:18:22</sys_updated_on>
+        <target_page>INTERNAL</target_page>
+    </sn_ex_sp_activity_configuration>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</claim_owner_scope>
+        <claim_timestamp>18fd53d1a8d0000001</claim_timestamp>
+        <metadata_update_name>sn_ex_sp_activity_configuration_3d4037d78302ca10e11a13e0deaad3c5</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>HR</previous_claim_name>
+        <previous_claim_scope>cbd5121183a20210e11a13e0deaad3c2</previous_claim_scope>
+        <sys_created_by>zainab.oulhcen</sys_created_by>
+        <sys_created_on>2024-06-01 19:18:22</sys_created_on>
+        <sys_id>cf5796d183a20210e11a13e0deaad3f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:18:22</sys_updated_on>
+    </sys_claim>
+</record_update>

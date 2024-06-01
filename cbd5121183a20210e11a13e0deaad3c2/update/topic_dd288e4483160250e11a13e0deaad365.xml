@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="topic">
+    <topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <apply_to_child_topics>false</apply_to_child_topics>
+        <banner_image/>
+        <banner_image_url/>
+        <description>Itemizing any goods and services that require payment</description>
+        <icon>d928028483160250e11a13e0deaad37f</icon>
+        <icon_url/>
+        <name>Invoices</name>
+        <order>100</order>
+        <parent_topic display_value="Purchases and expenses">ec284e4483160250e11a13e0deaad399</parent_topic>
+        <sys_class_name>topic</sys_class_name>
+        <sys_created_by>zainab.oulhcen</sys_created_by>
+        <sys_created_on>2024-05-16 10:43:47</sys_created_on>
+        <sys_id>dd288e4483160250e11a13e0deaad365</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Invoices</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</sys_scope>
+        <sys_update_name>topic_dd288e4483160250e11a13e0deaad365</sys_update_name>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:18:55</sys_updated_on>
+        <taxonomy display_value="employee1">db180a4483160250e11a13e0deaad3e8</taxonomy>
+        <template display_value="emp_taxonomy_topic">4fb26c9cc3d030102ec1a589a840ddbd</template>
+        <topic_based_navigation>false</topic_based_navigation>
+        <topic_contributor/>
+        <topic_manager/>
+        <topic_path>Purchases and expenses / Invoices</topic_path>
+    </topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=dd288e4483160250e11a13e0deaad365"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#cec8ca</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>icon</file_name>
+        <hash>22212b96b4e5fc9f99082c88396b98224612afbef8aed4852a68c39320f05545</hash>
+        <image_height>112</image_height>
+        <image_width>112</image_width>
+        <size_bytes>1733</size_bytes>
+        <size_compressed>1756</size_compressed>
+        <state>available</state>
+        <sys_created_by>zainab.oulhcen</sys_created_by>
+        <sys_created_on>2024-05-16 10:43:47</sys_created_on>
+        <sys_id>d928028483160250e11a13e0deaad37f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-05-16 10:43:47</sys_updated_on>
+        <table_name>ZZ_YYtopic</table_name>
+        <table_sys_id>dd288e4483160250e11a13e0deaad365</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="d928028483160250e11a13e0deaad37f">d928028483160250e11a13e0deaad37f</sys_attachment>
+        <sys_created_by>zainab.oulhcen</sys_created_by>
+        <sys_created_on>2024-05-16 10:43:47</sys_created_on>
+        <sys_id>1928028483160250e11a13e0deaad380</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>2328</length>
+        <position>1</position>
+        <sys_attachment display_value="icon" sys_id="d928028483160250e11a13e0deaad37f">d928028483160250e11a13e0deaad37f</sys_attachment>
+        <sys_created_by>zainab.oulhcen</sys_created_by>
+        <sys_created_on>2024-05-16 10:43:47</sys_created_on>
+        <sys_id>9928028483160250e11a13e0deaad380</sys_id>
+    </sys_attachment_doc>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</claim_owner_scope>
+        <claim_timestamp>18fd53d99bf0000001</claim_timestamp>
+        <metadata_update_name>topic_dd288e4483160250e11a13e0deaad365</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>HR</previous_claim_name>
+        <previous_claim_scope>cbd5121183a20210e11a13e0deaad3c2</previous_claim_scope>
+        <sys_created_by>zainab.oulhcen</sys_created_by>
+        <sys_created_on>2024-06-01 19:18:55</sys_created_on>
+        <sys_id>8f77161583a20210e11a13e0deaad36e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:18:55</sys_updated_on>
+    </sys_claim>
+</record_update>

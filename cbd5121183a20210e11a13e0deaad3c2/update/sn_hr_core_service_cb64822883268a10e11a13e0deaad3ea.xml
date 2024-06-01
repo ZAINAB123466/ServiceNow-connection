@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_hr_core_service">
+    <sn_hr_core_service action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <approval_options/>
+        <auto_close_case>false</auto_close_case>
+        <auto_close_offset/>
+        <auto_move_attachments>false</auto_move_attachments>
+        <badge display_value="HR">6439a617c3b00300b599b4ad81d3ae57</badge>
+        <case_creation_service_config/>
+        <case_options/>
+        <close_when/>
+        <description/>
+        <employee_document_type/>
+        <flow/>
+        <fulfillment_instructions/>
+        <fulfillment_type>lifecycle_event</fulfillment_type>
+        <header_config_opened_for display_value="Opened for/approver case header configuration using global descriptions">0b200888735810103a1c7de86cf6a7e7</header_config_opened_for>
+        <header_config_subject_person display_value="Opened for/approver case header configuration using global descriptions">0b200888735810103a1c7de86cf6a7e7</header_config_subject_person>
+        <hr_criteria/>
+        <le_type display_value="Managing Recuirment">d7000dce83d24e50e11a13e0deaad391</le_type>
+        <name>recuirement management</name>
+        <producer display_value="recuiuremet v1">631502a883268a10e11a13e0deaad3ba</producer>
+        <service_table>sn_hr_le_case</service_table>
+        <service_table_fields/>
+        <subject_person_access>true</subject_person_access>
+        <subject_person_related_lists/>
+        <sys_class_name>sn_hr_core_service</sys_class_name>
+        <sys_created_by>aliboya.elhajouji</sys_created_by>
+        <sys_created_on>2024-05-30 10:03:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>cb64822883268a10e11a13e0deaad3ea</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>recuirement management</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</sys_scope>
+        <sys_update_name>sn_hr_core_service_cb64822883268a10e11a13e0deaad3ea</sys_update_name>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:18:38</sys_updated_on>
+        <template display_value="request need">47e3c692831ace50e11a13e0deaad33c</template>
+        <topic_detail display_value="recurement topic">89a40a6883268a10e11a13e0deaad316</topic_detail>
+        <value>recuirement_management</value>
+        <workflow_detail/>
+    </sn_hr_core_service>
+    <sys_translated_text action="delete_multiple" query="documentkey=cb64822883268a10e11a13e0deaad3ea"/>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</claim_owner_scope>
+        <claim_timestamp>18fd53d58a60000001</claim_timestamp>
+        <metadata_update_name>sn_hr_core_service_cb64822883268a10e11a13e0deaad3ea</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>HR</previous_claim_name>
+        <previous_claim_scope>cbd5121183a20210e11a13e0deaad3c2</previous_claim_scope>
+        <sys_created_by>zainab.oulhcen</sys_created_by>
+        <sys_created_on>2024-06-01 19:18:38</sys_created_on>
+        <sys_id>43675ed183a20210e11a13e0deaad374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:18:38</sys_updated_on>
+    </sys_claim>
+</record_update>

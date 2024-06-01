@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_hr_le_activity_set">
+    <sn_hr_le_activity_set action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_set_dependencies/>
+        <audience/>
+        <combination_type>and</combination_type>
+        <condition/>
+        <condition_table/>
+        <date_offset_quantity/>
+        <date_offset_type/>
+        <date_offset_units/>
+        <description/>
+        <display_order>100</display_order>
+        <display_title>Collect Opportunities</display_title>
+        <display_to_opened_for>true</display_to_opened_for>
+        <display_to_subject_person>true</display_to_subject_person>
+        <evaluation_interval>1970-01-01 04:00:00</evaluation_interval>
+        <ignore_empty_date>true</ignore_empty_date>
+        <le_type display_value="Managing Recuirment">d7000dce83d24e50e11a13e0deaad391</le_type>
+        <sys_class_name>sn_hr_le_activity_set</sys_class_name>
+        <sys_created_by>asmae.aitha</sys_created_by>
+        <sys_created_on>2024-05-22 10:36:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>d0200dce83d24e50e11a13e0deaad30e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Collect Opportunities</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</sys_scope>
+        <sys_update_name>sn_hr_le_activity_set_d0200dce83d24e50e11a13e0deaad30e</sys_update_name>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:18:15</sys_updated_on>
+        <title>Collect Opportunities</title>
+        <trigger_field/>
+        <trigger_script/>
+        <trigger_table/>
+        <trigger_type>immediate</trigger_type>
+    </sn_hr_le_activity_set>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="HR">cbd5121183a20210e11a13e0deaad3c2</claim_owner_scope>
+        <claim_timestamp>18fd53cffe00000001</claim_timestamp>
+        <metadata_update_name>sn_hr_le_activity_set_d0200dce83d24e50e11a13e0deaad30e</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>HR</previous_claim_name>
+        <previous_claim_scope>cbd5121183a20210e11a13e0deaad3c2</previous_claim_scope>
+        <sys_created_by>zainab.oulhcen</sys_created_by>
+        <sys_created_on>2024-06-01 19:18:15</sys_created_on>
+        <sys_id>ed5712d183a20210e11a13e0deaad385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zainab.oulhcen</sys_updated_by>
+        <sys_updated_on>2024-06-01 19:18:15</sys_updated_on>
+    </sys_claim>
+</record_update>
